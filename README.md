@@ -26,7 +26,7 @@ We need to output a block of transaction id's which should be less than the maxi
 
 ## For Example :
 
-### Tx_id's               Parent Tx_id's
+### Tx_id's               ## Parent Tx_id's
      abc                   slv
      svt                   nan
      pqr                   slv
