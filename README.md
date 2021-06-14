@@ -8,7 +8,7 @@
 
 #####  block_sample.txt : Sample output of Block Transacctions.
 
-#####  Jupyter Notebook : The Jupyter Notebook containing all the functions & code.
+#####  Solution.ipynb : The Jupyter Notebook containing all the functions & code.
 
 #####  mempool.csv : Input Dataset for the mempool.
 
