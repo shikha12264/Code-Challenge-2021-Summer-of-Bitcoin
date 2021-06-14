@@ -16,3 +16,8 @@
 
 #####  Block.txt : output containing Block Transactions.
 
+## Problem Statement :
+
+We need to output a block of transaction id's which has maximum weight of 4000000 & Condition for a block is transactions can be included only if it's parent transactions have been included before!
+
+
