@@ -2,7 +2,7 @@
 
 #### This is the Code challenge for Summer of Bitcoin.  
 
-## Description of files of this repo
+# Description of files of this repo
 
 ####  sb_README.pdf : Problem Statement
 
@@ -16,7 +16,7 @@
 
 ####  block.txt : output containing Block Transactions.
 
-## Problem Statement :
+# Problem Statement :
 
 ### To simplify it, let's break down this into 3 simple steps:
 
@@ -27,7 +27,7 @@
 ### 3. Condition for a block is transactions can be included only if it's parent transactions have been included before !
 
      
-## Approach :
+# Approach :
 ### 1. Read files using pandas module in python & sort the dataframe maximising the fee & minimising the weight.
 
 ### 2. Check for parent_txid's
@@ -41,6 +41,8 @@
 ### So, in order to include "abc" to the output block, we first need to check for "slv" if it has appeared before since it's the "parent_id". 
 
 ### 3. Use global variables - highest_weight = 4000000 & min_weight & check whether the total weight of transactions in a block must not exceed 4,000,000 weight.
+
+# Logic :
 
        read_csv data from mempool.csv   
        sort the dataframe                                                           (#1)
