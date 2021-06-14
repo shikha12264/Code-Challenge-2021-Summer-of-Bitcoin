@@ -2,7 +2,7 @@
 
 #### This is the Code challenge for Summer of Bitcoin.  
 
-# Description of files of this repo:
+## Description of files of this repo
 
 #####  sb_README.pdf : Problem Statement
 
