@@ -18,6 +18,16 @@
 
 ## Problem Statement :
 
-We need to output a block of transaction id's which has maximum weight of 4000000 & Condition for a block is transactions can be included only if it's parent transactions have been included before!
+Read a file mempool.csv, with the format:
+     <txid>, <fee>, <weight>, <parent_txids>
+  
+We need to output a block of transaction id's which should be less than the maximum weight of 4000000 (i.e. keep a track of weight) & Condition for a block is transactions can be included only if it's parent transactions have been included before !
 
+## For Example :
 
+### Tx_id's     parent Tx_id's
+     abc           slv
+     svt           nan
+     pqr           slv
+     
+##### So, in order include "abc" to the output block, we need to check for parent_id "slv"
