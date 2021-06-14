@@ -1,6 +1,6 @@
 # Code-Challenge-2021-Summer-of-Bitcoin
 
-##### This is the Code challenge for Summer of Bitcoin.  
+#### This is the Code challenge for Summer of Bitcoin.  
 
 # Description of files of this repo:
 
