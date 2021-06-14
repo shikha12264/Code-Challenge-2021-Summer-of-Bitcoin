@@ -40,13 +40,13 @@
 
 ### 3. Use global variables - highest_weight = 4000000 & min_weight & check whether the total weight of transactions in a block must not exceed 4,000,000 weight.
        loop through the txids:
-             if it has parent_txids:
-                  go to that transaction:       
-                      include it in output block
-                          check_weight ( i.e. weight <= highest_weight (4000000) )
-                              if weight < highest_weight :
-                                   keep including trans_id's in the block
-                                         write_to_file the trans_id to the bllock.txt file
+         if it has parent_txids:
+           go to that transaction:       
+             include it in output block
+           check_weight ( i.e. weight <= highest_weight (4000000) )
+              if weight < highest_weight :
+                  keep including trans_id's in the block
+                  write_to_file the trans_id to the bllock.txt file
                                          
                           
                             
